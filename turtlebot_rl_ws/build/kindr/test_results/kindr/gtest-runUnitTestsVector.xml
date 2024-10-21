@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="18" failures="0" disabled="0" errors="0" time="0.001" timestamp="2024-10-17T20:02:26" name="AllTests">
+  <testsuite name="VectorTest/0" tests="3" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testVector" type_param="kindr::Vector&lt;(kindr::PhysicalType)0, double, 5&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="VectorTest/0" />
+    <testcase name="squaredNorm" type_param="kindr::Vector&lt;(kindr::PhysicalType)0, double, 5&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="VectorTest/0" />
+    <testcase name="projectOn" type_param="kindr::Vector&lt;(kindr::PhysicalType)0, double, 5&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="VectorTest/0" />
+  </testsuite>
+  <testsuite name="VectorTest/1" tests="3" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testVector" type_param="kindr::Vector&lt;(kindr::PhysicalType)0, float, 5&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="VectorTest/1" />
+    <testcase name="squaredNorm" type_param="kindr::Vector&lt;(kindr::PhysicalType)0, float, 5&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="VectorTest/1" />
+    <testcase name="projectOn" type_param="kindr::Vector&lt;(kindr::PhysicalType)0, float, 5&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="VectorTest/1" />
+  </testsuite>
+  <testsuite name="VectorTest/2" tests="3" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testVector" type_param="kindr::Vector&lt;(kindr::PhysicalType)10, double, 5&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="VectorTest/2" />
+    <testcase name="squaredNorm" type_param="kindr::Vector&lt;(kindr::PhysicalType)10, double, 5&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="VectorTest/2" />
+    <testcase name="projectOn" type_param="kindr::Vector&lt;(kindr::PhysicalType)10, double, 5&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="VectorTest/2" />
+  </testsuite>
+  <testsuite name="VectorTest/3" tests="3" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testVector" type_param="kindr::Vector&lt;(kindr::PhysicalType)10, float, 5&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="VectorTest/3" />
+    <testcase name="squaredNorm" type_param="kindr::Vector&lt;(kindr::PhysicalType)10, float, 5&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="VectorTest/3" />
+    <testcase name="projectOn" type_param="kindr::Vector&lt;(kindr::PhysicalType)10, float, 5&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="VectorTest/3" />
+  </testsuite>
+  <testsuite name="VectorTest/4" tests="3" failures="0" disabled="0" errors="0" time="0.001" timestamp="2024-10-17T20:02:26">
+    <testcase name="testVector" type_param="kindr::Vector&lt;(kindr::PhysicalType)9, double, 5&gt;" status="run" result="completed" time="0.001" timestamp="2024-10-17T20:02:26" classname="VectorTest/4" />
+    <testcase name="squaredNorm" type_param="kindr::Vector&lt;(kindr::PhysicalType)9, double, 5&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="VectorTest/4" />
+    <testcase name="projectOn" type_param="kindr::Vector&lt;(kindr::PhysicalType)9, double, 5&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="VectorTest/4" />
+  </testsuite>
+  <testsuite name="VectorTest/5" tests="3" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testVector" type_param="kindr::Vector&lt;(kindr::PhysicalType)9, float, 5&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="VectorTest/5" />
+    <testcase name="squaredNorm" type_param="kindr::Vector&lt;(kindr::PhysicalType)9, float, 5&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="VectorTest/5" />
+    <testcase name="projectOn" type_param="kindr::Vector&lt;(kindr::PhysicalType)9, float, 5&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="VectorTest/5" />
+  </testsuite>
+</testsuites>

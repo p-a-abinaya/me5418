@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="1" time="4.119"><testcase classname="rostest.runner.RosTest" name="testtest_postprocessor" time="4.1185" /><system-out>&lt;![CDATA[
+[ROSTEST]setup[/home/abi/turtlebot_rl_ws/src/elevation_mapping/elevation_mapping/test/postprocessing/postprocessor.test] run_id[c10bdb50-8c7f-11ef-9e61-7df1244a9c6c] starting
+&amp;#x001B;[1mstarted roslaunch server http://abi-Inspiron-14-5410-2-in-1:45331/&amp;#x001B;[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.0
+ * /test_postprocessor/postprocessor_pipeline_name: test_pipeline
+ * /test_postprocessor/test_pipeline: [{'name': 'first'...
+
+NODES
+
+[ROSTEST]setup[/home/abi/turtlebot_rl_ws/src/elevation_mapping/elevation_mapping/test/postprocessing/postprocessor.test] run_id[c10bdb50-8c7f-11ef-9e61-7df1244a9c6c] done
+[ROSTEST]Running test [test_postprocessor]
+&amp;#x001B;[1mROS_MASTER_URI=http://abi-Inspiron-14-5410-2-in-1:36641/&amp;#x001B;[0m
+&amp;#x001B;[1msetting /run_id to c10bdb50-8c7f-11ef-9e61-7df1244a9c6c&amp;#x001B;[0m
+[ROSTEST]running test test_postprocessor
+&amp;#x001B;[1mprocess[test_postprocessor-1]: started with pid [149877]&amp;#x001B;[0m
+&amp;#x001B;[1m[test_postprocessor-1] process has finished cleanly
+log file: /home/abi/.ros/log/c10bdb50-8c7f-11ef-9e61-7df1244a9c6c/test_postprocessor-1*.log&amp;#x001B;[0m
+[ROSTEST]test [test_postprocessor] finished
+[ROSTEST]test [test_postprocessor] results are in [/home/abi/turtlebot_rl_ws/build/elevation_mapping/test_results/elevation_mapping/rosunit-test_postprocessor.xml]
+[ROSTEST]test [test_postprocessor] results summary: 0 errors, 0 failures, 6 tests
+[ROSTEST][ROSTEST] test [test_postprocessor] done
+[ROSTEST]tearDown[/home/abi/turtlebot_rl_ws/src/elevation_mapping/elevation_mapping/test/postprocessing/postprocessor.test]
+shutting down processing monitor...
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/abi/turtlebot_rl_ws/src/elevation_mapping/elevation_mapping/test/postprocessing/postprocessor.test complete
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+
+]]&gt;</system-err></testsuite>

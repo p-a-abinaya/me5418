@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="6" failures="0" disabled="0" errors="0" time="3.778" timestamp="2024-10-17T20:03:00" name="AllTests">
+  <testsuite name="RosFixture" tests="6" failures="0" disabled="0" errors="0" time="3.778" timestamp="2024-10-17T20:03:00">
+    <testcase name="FiveTasksOneThreadSimultaneously" status="run" result="completed" time="0.31" timestamp="2024-10-17T20:03:00" classname="RosFixture" />
+    <testcase name="FiveTasksTwoThreadSimultaneously" status="run" result="completed" time="0.313" timestamp="2024-10-17T20:03:00" classname="RosFixture" />
+    <testcase name="EnoughTimeToProcess" status="run" result="completed" time="1.215" timestamp="2024-10-17T20:03:00" classname="RosFixture" />
+    <testcase name="EnoughTimeToProcessWithTwoThreads" status="run" result="completed" time="0.714" timestamp="2024-10-17T20:03:01" classname="RosFixture" />
+    <testcase name="ProcessEverySecond" status="run" result="completed" time="0.714" timestamp="2024-10-17T20:03:02" classname="RosFixture" />
+    <testcase name="TwoThreadsWithMiss" status="run" result="completed" time="0.512" timestamp="2024-10-17T20:03:03" classname="RosFixture" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,1 @@
+/home/abi/turtlebot_rl_ws/devel/.private/gazebo_terrain_tutorial/lib/pkgconfig/gazebo_terrain_tutorial.pc

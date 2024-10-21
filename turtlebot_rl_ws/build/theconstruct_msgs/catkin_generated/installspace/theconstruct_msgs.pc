@@ -1,0 +1,8 @@
+prefix=/home/abi/turtlebot_rl_ws/install
+
+Name: theconstruct_msgs
+Description: Description of theconstruct_msgs
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

@@ -1,0 +1,1 @@
+/home/abi/turtlebot_rl_ws/devel/.private/turtlebot3_msgs/share/roseus/ros/turtlebot3_msgs/manifest.l

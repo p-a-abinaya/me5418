@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="1" time="9.340"><testcase classname="rostest.runner.RosTest" name="testtest_elevation_mapping_inputs" time="9.3394" /><system-out>&lt;![CDATA[
+[ROSTEST]setup[/home/abi/turtlebot_rl_ws/src/elevation_mapping/elevation_mapping/test/input_sources/input_sources.test] run_id[c10d1c0e-8c7f-11ef-9e61-7df1244a9c6c] starting
+&amp;#x001B;[1mstarted roslaunch server http://abi-Inspiron-14-5410-2-in-1:41147/&amp;#x001B;[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.16.0
+ * /test_elevation_mapping_inputs/empty_sources_list: []
+ * /test_elevation_mapping_inputs/input_sources/input_1/publish_on_update: True
+ * /test_elevation_mapping_inputs/input_sources/input_1/queue_size: 1
+ * /test_elevation_mapping_inputs/input_sources/input_1/sensor_processor/type: perfect
+ * /test_elevation_mapping_inputs/input_sources/input_1/topic: /lidar_1/depth/po...
+ * /test_elevation_mapping_inputs/input_sources/input_1/type: pointcloud
+ * /test_elevation_mapping_inputs/input_sources/input_3/publish_on_update: True
+ * /test_elevation_mapping_inputs/input_sources/input_3/queue_size: 5
+ * /test_elevation_mapping_inputs/input_sources/input_3/sensor_processor/type: perfect
+ * /test_elevation_mapping_inputs/input_sources/input_3/topic: /lidar_2/depth/po...
+ * /test_elevation_mapping_inputs/input_sources/input_3/type: pointcloud
+ * /test_elevation_mapping_inputs/multiple_valid/input_1/publish_on_update: True
+ * /test_elevation_mapping_inputs/multiple_valid/input_1/queue_size: 1
+ * /test_elevation_mapping_inputs/multiple_valid/input_1/sensor_processor/type: perfect
+ * /test_elevation_mapping_inputs/multiple_valid/input_1/topic: /lidar_1/depth/po...
+ * /test_elevation_mapping_inputs/multiple_valid/input_1/type: pointcloud
+ * /test_elevation_mapping_inputs/multiple_valid/input_2/publish_on_update: False
+ * /test_elevation_mapping_inputs/multiple_valid/input_2/queue_size: 1
+ * /test_elevation_mapping_inputs/multiple_valid/input_2/sensor_processor/type: perfect
+ * /test_elevation_mapping_inputs/multiple_valid/input_2/topic: /image/depth/imag...
+ * /test_elevation_mapping_inputs/multiple_valid/input_2/type: depthimage
+ * /test_elevation_mapping_inputs/multiple_valid/input_3/publish_on_update: False
+ * /test_elevation_mapping_inputs/multiple_valid/input_3/queue_size: 5
+ * /test_elevation_mapping_inputs/multiple_valid/input_3/sensor_processor/type: perfect
+ * /test_elevation_mapping_inputs/multiple_valid/input_3/topic: /lidar_2/depth/po...
+ * /test_elevation_mapping_inputs/multiple_valid/input_3/type: pointcloud
+ * /test_elevation_mapping_inputs/negative_queue_size/standard_single_input/publish_on_update: True
+ * /test_elevation_mapping_inputs/negative_queue_size/standard_single_input/queue_size: -1
+ * /test_elevation_mapping_inputs/negative_queue_size/standard_single_input/sensor_processor/type: perfect
+ * /test_elevation_mapping_inputs/negative_queue_size/standard_single_input/topic: /lidar/depth/points
+ * /test_elevation_mapping_inputs/negative_queue_size/standard_single_input/type: pointcloud
+ * /test_elevation_mapping_inputs/no_publish_on_update/standard_single_input/queue_size: 1
+ * /test_elevation_mapping_inputs/no_publish_on_update/standard_single_input/sensor_processor/type: perfect
+ * /test_elevation_mapping_inputs/no_publish_on_update/standard_single_input/topic: /lidar/depth/points
+ * /test_elevation_mapping_inputs/no_publish_on_update/standard_single_input/type: pointcloud
+ * /test_elevation_mapping_inputs/no_queue_size/standard_single_input/publish_on_update: True
+ * /test_elevation_mapping_inputs/no_queue_size/standard_single_input/sensor_processor/type: perfect
+ * /test_elevation_mapping_inputs/no_queue_size/standard_single_input/topic: /lidar/depth/points
+ * /test_elevation_mapping_inputs/no_queue_size/standard_single_input/type: pointcloud
+ * /test_elevation_mapping_inputs/no_topic/standard_single_input/publish_on_update: True
+ * /test_elevation_mapping_inputs/no_topic/standard_single_input/queue_size: 1
+ * /test_elevation_mapping_inputs/no_topic/standard_single_input/sensor_processor/type: perfect
+ * /test_elevation_mapping_inputs/no_topic/standard_single_input/type: pointcloud
+ * /test_elevation_mapping_inputs/no_type/standard_single_input/publish_on_update: True
+ * /test_elevation_mapping_inputs/no_type/standard_single_input/queue_size: 1
+ * /test_elevation_mapping_inputs/no_type/standard_single_input/sensor_processor/type: perfect
+ * /test_elevation_mapping_inputs/no_type/standard_single_input/topic: /lidar/depth/points
+ * /test_elevation_mapping_inputs/not_a_struct: [{'name': 'input_...
+ * /test_elevation_mapping_inputs/queue_size_is_string/standard_single_input/publish_on_update: True
+ * /test_elevation_mapping_inputs/queue_size_is_string/standard_single_input/queue_size: 1
+ * /test_elevation_mapping_inputs/queue_size_is_string/standard_single_input/sensor_processor/type: perfect
+ * /test_elevation_mapping_inputs/queue_size_is_string/standard_single_input/topic: /lidar/depth/points
+ * /test_elevation_mapping_inputs/queue_size_is_string/standard_single_input/type: pointcloud
+ * /test_elevation_mapping_inputs/single_valid/standard_single_input/publish_on_update: True
+ * /test_elevation_mapping_inputs/single_valid/standard_single_input/queue_size: 1
+ * /test_elevation_mapping_inputs/single_valid/standard_single_input/sensor_processor/type: perfect
+ * /test_elevation_mapping_inputs/single_valid/standard_single_input/topic: /lidar/depth/points
+ * /test_elevation_mapping_inputs/single_valid/standard_single_input/type: pointcloud
+ * /test_elevation_mapping_inputs/subscribing_same_topic_twice/input_1/publish_on_update: True
+ * /test_elevation_mapping_inputs/subscribing_same_topic_twice/input_1/queue_size: 1
+ * /test_elevation_mapping_inputs/subscribing_same_topic_twice/input_1/sensor_processor/type: perfect
+ * /test_elevation_mapping_inputs/subscribing_same_topic_twice/input_1/topic: /lidar_1/depth/po...
+ * /test_elevation_mapping_inputs/subscribing_same_topic_twice/input_1/type: pointcloud
+ * /test_elevation_mapping_inputs/subscribing_same_topic_twice/input_2/publish_on_update: False
+ * /test_elevation_mapping_inputs/subscribing_same_topic_twice/input_2/queue_size: 1
+ * /test_elevation_mapping_inputs/subscribing_same_topic_twice/input_2/sensor_processor/type: perfect
+ * /test_elevation_mapping_inputs/subscribing_same_topic_twice/input_2/topic: /lidar_1/depth/po...
+ * /test_elevation_mapping_inputs/subscribing_same_topic_twice/input_2/type: pointcloud
+ * /test_elevation_mapping_inputs/unknown_type/unknown_input/publish_on_update: True
+ * /test_elevation_mapping_inputs/unknown_type/unknown_input/queue_size: 1
+ * /test_elevation_mapping_inputs/unknown_type/unknown_input/sensor_processor/type: perfect
+ * /test_elevation_mapping_inputs/unknown_type/unknown_input/topic: /sonar/ranges
+ * /test_elevation_mapping_inputs/unknown_type/unknown_input/type: sonar
+ * /test_elevation_mapping_inputs/wrong_type_configuration: [{'name': 'test'}...
+
+NODES
+
+[ROSTEST]setup[/home/abi/turtlebot_rl_ws/src/elevation_mapping/elevation_mapping/test/input_sources/input_sources.test] run_id[c10d1c0e-8c7f-11ef-9e61-7df1244a9c6c] done
+[ROSTEST]Running test [test_elevation_mapping_inputs]
+&amp;#x001B;[1mROS_MASTER_URI=http://abi-Inspiron-14-5410-2-in-1:42917/&amp;#x001B;[0m
+&amp;#x001B;[1msetting /run_id to c10d1c0e-8c7f-11ef-9e61-7df1244a9c6c&amp;#x001B;[0m
+[ROSTEST]running test test_elevation_mapping_inputs
+&amp;#x001B;[1mprocess[test_elevation_mapping_inputs-1]: started with pid [149878]&amp;#x001B;[0m
+&amp;#x001B;[1m[test_elevation_mapping_inputs-1] process has finished cleanly
+log file: /home/abi/.ros/log/c10d1c0e-8c7f-11ef-9e61-7df1244a9c6c/test_elevation_mapping_inputs-1*.log&amp;#x001B;[0m
+[ROSTEST]test [test_elevation_mapping_inputs] finished
+[ROSTEST]test [test_elevation_mapping_inputs] results are in [/home/abi/turtlebot_rl_ws/build/elevation_mapping/test_results/elevation_mapping/rosunit-test_elevation_mapping_inputs.xml]
+WARN: cannot read test result file [/home/abi/turtlebot_rl_ws/build/elevation_mapping/test_results/elevation_mapping/rosunit-test_elevation_mapping_inputs.xml]: not well-formed (invalid token): line 2, column 110
+[ROSTEST]test [test_elevation_mapping_inputs] results summary: 0 errors, 0 failures, 0 tests
+[ROSTEST][ROSTEST] test [test_elevation_mapping_inputs] done
+[ROSTEST]tearDown[/home/abi/turtlebot_rl_ws/src/elevation_mapping/elevation_mapping/test/input_sources/input_sources.test]
+shutting down processing monitor...
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/abi/turtlebot_rl_ws/src/elevation_mapping/elevation_mapping/test/input_sources/input_sources.test complete
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+
+]]&gt;</system-err></testsuite>

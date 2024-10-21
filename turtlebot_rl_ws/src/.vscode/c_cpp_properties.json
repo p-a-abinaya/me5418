@@ -1,0 +1,47 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/abi/turtlebot_rl_ws/devel/include/**",
+        "/home/abi/catkin_ws/devel/include/**",
+        "/home/abi/me5400_ws/devel/include/**",
+        "/home/abi/hexapod_vs/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/abi/hexapod_vs/src/diffbot/diffbot_base/include/**",
+        "/home/abi/turtlebot_rl_ws/src/elevation_mapping/elevation_mapping/include/**",
+        "/home/abi/me5400_ws/src/grid_map/grid_map_core/include/**",
+        "/home/abi/me5400_ws/src/grid_map/grid_map_costmap_2d/include/**",
+        "/home/abi/me5400_ws/src/grid_map/grid_map_cv/include/**",
+        "/home/abi/me5400_ws/src/grid_map/grid_map_demos/include/**",
+        "/home/abi/me5400_ws/src/grid_map/grid_map_filters/include/**",
+        "/home/abi/me5400_ws/src/grid_map/grid_map_loader/include/**",
+        "/home/abi/me5400_ws/src/grid_map/grid_map_octomap/include/**",
+        "/home/abi/me5400_ws/src/grid_map/grid_map_pcl/include/**",
+        "/home/abi/me5400_ws/src/grid_map/grid_map_ros/include/**",
+        "/home/abi/me5400_ws/src/grid_map/grid_map_rviz_plugin/include/**",
+        "/home/abi/me5400_ws/src/grid_map/grid_map_sdf/include/**",
+        "/home/abi/me5400_ws/src/grid_map/grid_map_visualization/include/**",
+        "/home/abi/turtlebot_rl_ws/src/kindr/include/**",
+        "/home/abi/turtlebot_rl_ws/src/kindr_ros/kindr_ros/include/**",
+        "/home/abi/turtlebot_rl_ws/src/kindr_ros/kindr_rviz_plugins/include/**",
+        "/home/abi/turtlebot_rl_ws/src/message_logger/include/**",
+        "/home/abi/turtlebot_rl_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/**",
+        "/home/abi/turtlebot_rl_ws/src/point_cloud_io/include/**",
+        "/home/abi/catkin_ws/src/turtlebot/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/abi/catkin_ws/src/turtlebot/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/abi/catkin_ws/src/turtlebot/turtlebot3/turtlebot3_slam/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

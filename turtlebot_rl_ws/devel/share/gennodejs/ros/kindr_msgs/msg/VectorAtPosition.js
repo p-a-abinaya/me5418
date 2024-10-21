@@ -1,0 +1,1 @@
+/home/abi/turtlebot_rl_ws/devel/.private/kindr_msgs/share/gennodejs/ros/kindr_msgs/msg/VectorAtPosition.js

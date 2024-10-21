@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="20" failures="0" disabled="0" errors="0" time="0.001" timestamp="2024-10-17T20:02:26" name="AllTests">
+  <testsuite name="ForceTorqueTest/0" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testForce" type_param="kindr::Vector&lt;(kindr::PhysicalType)0, double, 3&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ForceTorqueTest/0" />
+  </testsuite>
+  <testsuite name="WrenchTest/0" tests="7" failures="0" disabled="0" errors="0" time="0.001" timestamp="2024-10-17T20:02:26">
+    <testcase name="constructor" type_param="float" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="WrenchTest/0" />
+    <testcase name="setters" type_param="float" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="WrenchTest/0" />
+    <testcase name="setZero" type_param="float" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="WrenchTest/0" />
+    <testcase name="getVector" type_param="float" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="WrenchTest/0" />
+    <testcase name="assignment" type_param="float" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="WrenchTest/0" />
+    <testcase name="comparison" type_param="float" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="WrenchTest/0" />
+    <testcase name="math" type_param="float" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="WrenchTest/0" />
+  </testsuite>
+  <testsuite name="WrenchTest/1" tests="7" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="constructor" type_param="double" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="WrenchTest/1" />
+    <testcase name="setters" type_param="double" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="WrenchTest/1" />
+    <testcase name="setZero" type_param="double" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="WrenchTest/1" />
+    <testcase name="getVector" type_param="double" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="WrenchTest/1" />
+    <testcase name="assignment" type_param="double" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="WrenchTest/1" />
+    <testcase name="comparison" type_param="double" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="WrenchTest/1" />
+    <testcase name="math" type_param="double" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="WrenchTest/1" />
+  </testsuite>
+  <testsuite name="ScalarTest" tests="5" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="multiplicationWithScalar" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ScalarTest" />
+    <testcase name="divisionByScalar" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ScalarTest" />
+    <testcase name="multiplyTwoScalars" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ScalarTest" />
+    <testcase name="divideTwoScalars" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ScalarTest" />
+    <testcase name="assignment" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ScalarTest" />
+  </testsuite>
+</testsuites>

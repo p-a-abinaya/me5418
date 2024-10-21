@@ -1,0 +1,8 @@
+prefix=/home/abi/turtlebot_rl_ws/devel/.private/turtlebot_training
+
+Name: turtlebot_training
+Description: Description of turtlebot_training
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

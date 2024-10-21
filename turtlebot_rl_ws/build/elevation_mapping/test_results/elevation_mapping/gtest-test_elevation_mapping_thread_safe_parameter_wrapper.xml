@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="0" disabled="0" errors="0" time="18.695" timestamp="2024-10-17T20:02:59" name="AllTests">
+  <testsuite name="DataAccessFixture" tests="4" failures="0" disabled="0" errors="0" time="18.695" timestamp="2024-10-17T20:02:59">
+    <testcase name="TestNonConcurrentReadAndWriteNonDataRacePreventingWrite" status="run" result="completed" time="6.237" timestamp="2024-10-17T20:02:59" classname="DataAccessFixture" />
+    <testcase name="TestNonConcurrentReadAndWriteDataRacePreventingWrite" status="run" result="completed" time="6.244" timestamp="2024-10-17T20:03:05" classname="DataAccessFixture" />
+    <testcase name="TestMalunctioningConcurrentReadAndWrite" status="run" result="completed" time="3.019" timestamp="2024-10-17T20:03:11" classname="DataAccessFixture" />
+    <testcase name="TestFunctioningConcurrentReadAndWrite" status="run" result="completed" time="3.195" timestamp="2024-10-17T20:03:14" classname="DataAccessFixture" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+prefix=/home/abi/turtlebot_rl_ws/devel/.private/message_logger
+
+Name: message_logger
+Description: Description of message_logger
+Version: 0.2.18
+Cflags: -I/home/abi/turtlebot_rl_ws/src/message_logger/include -I/home/abi/turtlebot_rl_ws/devel/.private/message_logger/include
+Libs: -L${prefix}/lib -lmessage_logger
+Requires: roscpp

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="20" failures="0" disabled="0" errors="0" time="0.001" timestamp="2024-10-17T20:02:26" name="AllTests">
+  <testsuite name="TwistTest/0" tests="3" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConstructor" type_param="kindr::TwistLinearVelocityRotationQuaternionDiff&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="TwistTest/0" />
+    <testcase name="testInitial" type_param="kindr::TwistLinearVelocityRotationQuaternionDiff&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="TwistTest/0" />
+    <testcase name="testSetZero" type_param="kindr::TwistLinearVelocityRotationQuaternionDiff&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="TwistTest/0" />
+  </testsuite>
+  <testsuite name="TwistTest/1" tests="3" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConstructor" type_param="kindr::TwistLinearVelocityRotationQuaternionDiff&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="TwistTest/1" />
+    <testcase name="testInitial" type_param="kindr::TwistLinearVelocityRotationQuaternionDiff&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="TwistTest/1" />
+    <testcase name="testSetZero" type_param="kindr::TwistLinearVelocityRotationQuaternionDiff&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="TwistTest/1" />
+  </testsuite>
+  <testsuite name="LinearVelocityTest/0" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testLinearVelocity" type_param="kindr::Vector&lt;(kindr::PhysicalType)8, double, 3&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="LinearVelocityTest/0" />
+  </testsuite>
+  <testsuite name="LinearVelocityTest/1" tests="1" failures="0" disabled="0" errors="0" time="0.001" timestamp="2024-10-17T20:02:26">
+    <testcase name="testLinearVelocity" type_param="kindr::Vector&lt;(kindr::PhysicalType)8, float, 3&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="LinearVelocityTest/1" />
+  </testsuite>
+  <testsuite name="TwistWithAngularVelocityTest/0" tests="3" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="constructors" type_param="kindr::TwistLinearVelocityLocalAngularVelocity&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="TwistWithAngularVelocityTest/0" />
+    <testcase name="getters" type_param="kindr::TwistLinearVelocityLocalAngularVelocity&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="TwistWithAngularVelocityTest/0" />
+    <testcase name="setters" type_param="kindr::TwistLinearVelocityLocalAngularVelocity&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="TwistWithAngularVelocityTest/0" />
+  </testsuite>
+  <testsuite name="TwistWithAngularVelocityTest/1" tests="3" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="constructors" type_param="kindr::TwistLinearVelocityLocalAngularVelocity&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="TwistWithAngularVelocityTest/1" />
+    <testcase name="getters" type_param="kindr::TwistLinearVelocityLocalAngularVelocity&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="TwistWithAngularVelocityTest/1" />
+    <testcase name="setters" type_param="kindr::TwistLinearVelocityLocalAngularVelocity&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="TwistWithAngularVelocityTest/1" />
+  </testsuite>
+  <testsuite name="TwistWithAngularVelocityTest/2" tests="3" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="constructors" type_param="kindr::TwistLinearVelocityGlobalAngularVelocity&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="TwistWithAngularVelocityTest/2" />
+    <testcase name="getters" type_param="kindr::TwistLinearVelocityGlobalAngularVelocity&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="TwistWithAngularVelocityTest/2" />
+    <testcase name="setters" type_param="kindr::TwistLinearVelocityGlobalAngularVelocity&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="TwistWithAngularVelocityTest/2" />
+  </testsuite>
+  <testsuite name="TwistWithAngularVelocityTest/3" tests="3" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="constructors" type_param="kindr::TwistLinearVelocityGlobalAngularVelocity&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="TwistWithAngularVelocityTest/3" />
+    <testcase name="getters" type_param="kindr::TwistLinearVelocityGlobalAngularVelocity&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="TwistWithAngularVelocityTest/3" />
+    <testcase name="setters" type_param="kindr::TwistLinearVelocityGlobalAngularVelocity&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="TwistWithAngularVelocityTest/3" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="504" failures="0" disabled="0" errors="0" time="0.017" timestamp="2024-10-17T20:02:26" name="AllTests">
+  <testsuite name="RotationMatrixSingleTest/0" tests="18" failures="0" disabled="0" errors="0" time="0.001" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConstructors" type_param="kindr::RotationMatrix&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/0" />
+    <testcase name="testAssignmentOperator" type_param="kindr::RotationMatrix&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/0" />
+    <testcase name="testParenthesisOperator" type_param="kindr::RotationMatrix&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/0" />
+    <testcase name="testGetters" type_param="kindr::RotationMatrix&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/0" />
+    <testcase name="testSetters" type_param="kindr::RotationMatrix&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/0" />
+    <testcase name="testComparisonEqual" type_param="kindr::RotationMatrix&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/0" />
+    <testcase name="testComparisonNotEqual" type_param="kindr::RotationMatrix&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/0" />
+    <testcase name="testGetDisparityAngle" type_param="kindr::RotationMatrix&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/0" />
+    <testcase name="testIsNear" type_param="kindr::RotationMatrix&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/0" />
+    <testcase name="testConcatenation" type_param="kindr::RotationMatrix&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/0" />
+    <testcase name="testFix" type_param="kindr::RotationMatrix&lt;double&gt;" status="run" result="completed" time="0.001" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/0" />
+    <testcase name="testVectorRotation" type_param="kindr::RotationMatrix&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/0" />
+    <testcase name="testExpMap" type_param="kindr::RotationMatrix&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/0" />
+    <testcase name="testLogMap" type_param="kindr::RotationMatrix&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/0" />
+    <testcase name="testMaps" type_param="kindr::RotationMatrix&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/0" />
+    <testcase name="testBoxPlus" type_param="kindr::RotationMatrix&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/0" />
+    <testcase name="testBoxMinus" type_param="kindr::RotationMatrix&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/0" />
+    <testcase name="testBoxOperators" type_param="kindr::RotationMatrix&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/0" />
+  </testsuite>
+  <testsuite name="RotationMatrixSingleTest/1" tests="18" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConstructors" type_param="kindr::RotationMatrix&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/1" />
+    <testcase name="testAssignmentOperator" type_param="kindr::RotationMatrix&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/1" />
+    <testcase name="testParenthesisOperator" type_param="kindr::RotationMatrix&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/1" />
+    <testcase name="testGetters" type_param="kindr::RotationMatrix&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/1" />
+    <testcase name="testSetters" type_param="kindr::RotationMatrix&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/1" />
+    <testcase name="testComparisonEqual" type_param="kindr::RotationMatrix&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/1" />
+    <testcase name="testComparisonNotEqual" type_param="kindr::RotationMatrix&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/1" />
+    <testcase name="testGetDisparityAngle" type_param="kindr::RotationMatrix&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/1" />
+    <testcase name="testIsNear" type_param="kindr::RotationMatrix&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/1" />
+    <testcase name="testConcatenation" type_param="kindr::RotationMatrix&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/1" />
+    <testcase name="testFix" type_param="kindr::RotationMatrix&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/1" />
+    <testcase name="testVectorRotation" type_param="kindr::RotationMatrix&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/1" />
+    <testcase name="testExpMap" type_param="kindr::RotationMatrix&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/1" />
+    <testcase name="testLogMap" type_param="kindr::RotationMatrix&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/1" />
+    <testcase name="testMaps" type_param="kindr::RotationMatrix&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/1" />
+    <testcase name="testBoxPlus" type_param="kindr::RotationMatrix&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/1" />
+    <testcase name="testBoxMinus" type_param="kindr::RotationMatrix&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/1" />
+    <testcase name="testBoxOperators" type_param="kindr::RotationMatrix&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixSingleTest/1" />
+  </testsuite>
+  <testsuite name="RotationMatrixRotationQuaternionPairTest/0" tests="7" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConvertToRotationQuaternionUsingConstructor" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::RotationMatrix&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/0" />
+    <testcase name="testConvertToRotationMatrixUsingConstructor" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::RotationMatrix&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/0" />
+    <testcase name="testConvertToRotationQuaternionUsingAssignment" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::RotationMatrix&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/0" />
+    <testcase name="testConvertToRotationMatrixUsingAssignment" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::RotationMatrix&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/0" />
+    <testcase name="testConvertToRotationQuaternionUsingParenthesisOperator" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::RotationMatrix&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/0" />
+    <testcase name="testConvertToRotationMatrixUsingParenthesisOperator" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::RotationMatrix&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/0" />
+    <testcase name="testInversion" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::RotationMatrix&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/0" />
+  </testsuite>
+  <testsuite name="RotationMatrixRotationQuaternionPairTest/1" tests="7" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConvertToRotationQuaternionUsingConstructor" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::RotationMatrix&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/1" />
+    <testcase name="testConvertToRotationMatrixUsingConstructor" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::RotationMatrix&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/1" />
+    <testcase name="testConvertToRotationQuaternionUsingAssignment" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::RotationMatrix&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/1" />
+    <testcase name="testConvertToRotationMatrixUsingAssignment" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::RotationMatrix&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/1" />
+    <testcase name="testConvertToRotationQuaternionUsingParenthesisOperator" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::RotationMatrix&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/1" />
+    <testcase name="testConvertToRotationMatrixUsingParenthesisOperator" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::RotationMatrix&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/1" />
+    <testcase name="testInversion" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::RotationMatrix&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/1" />
+  </testsuite>
+  <testsuite name="RotationMatrixRotationQuaternionPairTest/2" tests="7" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConvertToRotationQuaternionUsingConstructor" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::RotationMatrix&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/2" />
+    <testcase name="testConvertToRotationMatrixUsingConstructor" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::RotationMatrix&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/2" />
+    <testcase name="testConvertToRotationQuaternionUsingAssignment" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::RotationMatrix&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/2" />
+    <testcase name="testConvertToRotationMatrixUsingAssignment" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::RotationMatrix&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/2" />
+    <testcase name="testConvertToRotationQuaternionUsingParenthesisOperator" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::RotationMatrix&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/2" />
+    <testcase name="testConvertToRotationMatrixUsingParenthesisOperator" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::RotationMatrix&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/2" />
+    <testcase name="testInversion" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::RotationMatrix&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/2" />
+  </testsuite>
+  <testsuite name="RotationMatrixRotationQuaternionPairTest/3" tests="7" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConvertToRotationQuaternionUsingConstructor" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::RotationMatrix&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/3" />
+    <testcase name="testConvertToRotationMatrixUsingConstructor" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::RotationMatrix&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/3" />
+    <testcase name="testConvertToRotationQuaternionUsingAssignment" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::RotationMatrix&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/3" />
+    <testcase name="testConvertToRotationMatrixUsingAssignment" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::RotationMatrix&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/3" />
+    <testcase name="testConvertToRotationQuaternionUsingParenthesisOperator" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::RotationMatrix&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/3" />
+    <testcase name="testConvertToRotationMatrixUsingParenthesisOperator" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::RotationMatrix&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/3" />
+    <testcase name="testInversion" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::RotationMatrix&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationMatrixRotationQuaternionPairTest/3" />
+  </testsuite>
+  <testsuite name="RotationQuaternionSingleTest/0" tests="20" failures="0" disabled="0" errors="0" time="0.001" timestamp="2024-10-17T20:02:26">
+    <testcase name="testRotationQuaternionConstructors" type_param="kindr::RotationQuaternion&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/0" />
+    <testcase name="testRotationQuaternionInversion" type_param="kindr::RotationQuaternion&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/0" />
+    <testcase name="testRotationQuaternionConjugation" type_param="kindr::RotationQuaternion&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/0" />
+    <testcase name="testRotationQuaternionNorm" type_param="kindr::RotationQuaternion&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/0" />
+    <testcase name="testRotationQuaternionSetters" type_param="kindr::RotationQuaternion&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/0" />
+    <testcase name="testRotationQuaternionEqualityComparison" type_param="kindr::RotationQuaternion&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/0" />
+    <testcase name="testRotationQuaternionInequalityComparison" type_param="kindr::RotationQuaternion&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/0" />
+    <testcase name="testRotationQuaternionIsNear" type_param="kindr::RotationQuaternion&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/0" />
+    <testcase name="testRotationQuaternionUniqueness" type_param="kindr::RotationQuaternion&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/0" />
+    <testcase name="testRotationQuaternionConcatenation" type_param="kindr::RotationQuaternion&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/0" />
+    <testcase name="testRotationQuaternionSingleSpecialMatrices" type_param="kindr::RotationQuaternion&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/0" />
+    <testcase name="testFix" type_param="kindr::RotationQuaternion&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/0" />
+    <testcase name="testRotationQuaternionVectorRotation" type_param="kindr::RotationQuaternion&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/0" />
+    <testcase name="testRotationQuaternionUnitQuaternionCast" type_param="kindr::RotationQuaternion&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/0" />
+    <testcase name="testRotationQuaternionToImplementationCast" type_param="kindr::RotationQuaternion&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/0" />
+    <testcase name="testRotationQuaternionGetDisparityAngle" type_param="kindr::RotationQuaternion&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/0" />
+    <testcase name="testRotationQuaternionExponentialMap" type_param="kindr::RotationQuaternion&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/0" />
+    <testcase name="testRotationQuaternionBoxOperators" type_param="kindr::RotationQuaternion&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/0" />
+    <testcase name="testSetRandom" type_param="kindr::RotationQuaternion&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/0" />
+    <testcase name="testGetRandom" type_param="kindr::RotationQuaternion&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/0" />
+  </testsuite>
+  <testsuite name="RotationQuaternionSingleTest/1" tests="20" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testRotationQuaternionConstructors" type_param="kindr::RotationQuaternion&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/1" />
+    <testcase name="testRotationQuaternionInversion" type_param="kindr::RotationQuaternion&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/1" />
+    <testcase name="testRotationQuaternionConjugation" type_param="kindr::RotationQuaternion&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/1" />
+    <testcase name="testRotationQuaternionNorm" type_param="kindr::RotationQuaternion&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/1" />
+    <testcase name="testRotationQuaternionSetters" type_param="kindr::RotationQuaternion&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/1" />
+    <testcase name="testRotationQuaternionEqualityComparison" type_param="kindr::RotationQuaternion&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/1" />
+    <testcase name="testRotationQuaternionInequalityComparison" type_param="kindr::RotationQuaternion&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/1" />
+    <testcase name="testRotationQuaternionIsNear" type_param="kindr::RotationQuaternion&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/1" />
+    <testcase name="testRotationQuaternionUniqueness" type_param="kindr::RotationQuaternion&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/1" />
+    <testcase name="testRotationQuaternionConcatenation" type_param="kindr::RotationQuaternion&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/1" />
+    <testcase name="testRotationQuaternionSingleSpecialMatrices" type_param="kindr::RotationQuaternion&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/1" />
+    <testcase name="testFix" type_param="kindr::RotationQuaternion&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/1" />
+    <testcase name="testRotationQuaternionVectorRotation" type_param="kindr::RotationQuaternion&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/1" />
+    <testcase name="testRotationQuaternionUnitQuaternionCast" type_param="kindr::RotationQuaternion&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/1" />
+    <testcase name="testRotationQuaternionToImplementationCast" type_param="kindr::RotationQuaternion&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/1" />
+    <testcase name="testRotationQuaternionGetDisparityAngle" type_param="kindr::RotationQuaternion&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/1" />
+    <testcase name="testRotationQuaternionExponentialMap" type_param="kindr::RotationQuaternion&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/1" />
+    <testcase name="testRotationQuaternionBoxOperators" type_param="kindr::RotationQuaternion&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/1" />
+    <testcase name="testSetRandom" type_param="kindr::RotationQuaternion&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/1" />
+    <testcase name="testGetRandom" type_param="kindr::RotationQuaternion&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionSingleTest/1" />
+  </testsuite>
+  <testsuite name="RotationQuaternionPairTest/0" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testRotationQuaternionAssignmentPrimTypes" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::RotationQuaternion&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionPairTest/0" />
+    <testcase name="testRotationQuaternionParenthesisPrimTypes" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::RotationQuaternion&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionPairTest/0" />
+  </testsuite>
+  <testsuite name="RotationVectorSingleTest/0" tests="15" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConstructors" type_param="kindr::RotationVector&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/0" />
+    <testcase name="testGetters" type_param="kindr::RotationVector&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/0" />
+    <testcase name="testAssignmentOperator" type_param="kindr::RotationVector&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/0" />
+    <testcase name="testParenthesisOperator" type_param="kindr::RotationVector&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/0" />
+    <testcase name="testSetters" type_param="kindr::RotationVector&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/0" />
+    <testcase name="testUniqueness" type_param="kindr::RotationVector&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/0" />
+    <testcase name="testComparisonEqual" type_param="kindr::RotationVector&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/0" />
+    <testcase name="testComparisonNotEqual" type_param="kindr::RotationVector&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/0" />
+    <testcase name="testGetDisparityAngle" type_param="kindr::RotationVector&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/0" />
+    <testcase name="testIsNear" type_param="kindr::RotationVector&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/0" />
+    <testcase name="testConcatenation" type_param="kindr::RotationVector&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/0" />
+    <testcase name="testFix" type_param="kindr::RotationVector&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/0" />
+    <testcase name="testVectorRotation" type_param="kindr::RotationVector&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/0" />
+    <testcase name="testMaps" type_param="kindr::RotationVector&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/0" />
+    <testcase name="testBoxOperators" type_param="kindr::RotationVector&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/0" />
+  </testsuite>
+  <testsuite name="RotationVectorSingleTest/1" tests="15" failures="0" disabled="0" errors="0" time="0.001" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConstructors" type_param="kindr::RotationVector&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/1" />
+    <testcase name="testGetters" type_param="kindr::RotationVector&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/1" />
+    <testcase name="testAssignmentOperator" type_param="kindr::RotationVector&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/1" />
+    <testcase name="testParenthesisOperator" type_param="kindr::RotationVector&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/1" />
+    <testcase name="testSetters" type_param="kindr::RotationVector&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/1" />
+    <testcase name="testUniqueness" type_param="kindr::RotationVector&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/1" />
+    <testcase name="testComparisonEqual" type_param="kindr::RotationVector&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/1" />
+    <testcase name="testComparisonNotEqual" type_param="kindr::RotationVector&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/1" />
+    <testcase name="testGetDisparityAngle" type_param="kindr::RotationVector&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/1" />
+    <testcase name="testIsNear" type_param="kindr::RotationVector&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/1" />
+    <testcase name="testConcatenation" type_param="kindr::RotationVector&lt;float&gt;" status="run" result="completed" time="0.001" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/1" />
+    <testcase name="testFix" type_param="kindr::RotationVector&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/1" />
+    <testcase name="testVectorRotation" type_param="kindr::RotationVector&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/1" />
+    <testcase name="testMaps" type_param="kindr::RotationVector&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/1" />
+    <testcase name="testBoxOperators" type_param="kindr::RotationVector&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorSingleTest/1" />
+  </testsuite>
+  <testsuite name="RotationVectorRotationQuaternionPairTest/0" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConversionRotationQuaternionRotationVector" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::RotationVector&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorRotationQuaternionPairTest/0" />
+    <testcase name="testInversion" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::RotationVector&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorRotationQuaternionPairTest/0" />
+  </testsuite>
+  <testsuite name="RotationVectorRotationQuaternionPairTest/1" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConversionRotationQuaternionRotationVector" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::RotationVector&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorRotationQuaternionPairTest/1" />
+    <testcase name="testInversion" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::RotationVector&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorRotationQuaternionPairTest/1" />
+  </testsuite>
+  <testsuite name="RotationVectorRotationQuaternionPairTest/2" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConversionRotationQuaternionRotationVector" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::RotationVector&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorRotationQuaternionPairTest/2" />
+    <testcase name="testInversion" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::RotationVector&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorRotationQuaternionPairTest/2" />
+  </testsuite>
+  <testsuite name="RotationVectorRotationQuaternionPairTest/3" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConversionRotationQuaternionRotationVector" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::RotationVector&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorRotationQuaternionPairTest/3" />
+    <testcase name="testInversion" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::RotationVector&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationVectorRotationQuaternionPairTest/3" />
+  </testsuite>
+  <testsuite name="AngleAxisSingleTest/0" tests="12" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConstructors" type_param="kindr::AngleAxis&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="AngleAxisSingleTest/0" />
+    <testcase name="testGetters" type_param="kindr::AngleAxis&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="AngleAxisSingleTest/0" />
+    <testcase name="testSetters" type_param="kindr::AngleAxis&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="AngleAxisSingleTest/0" />
+    <testcase name="testComparisonEqual" type_param="kindr::AngleAxis&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="AngleAxisSingleTest/0" />
+    <testcase name="testComparisonNotEqual" type_param="kindr::AngleAxis&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="AngleAxisSingleTest/0" />
+    <testcase name="testGetDisparityAngle" type_param="kindr::AngleAxis&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="AngleAxisSingleTest/0" />
+    <testcase name="testIsNear" type_param="kindr::AngleAxis&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="AngleAxisSingleTest/0" />
+    <testcase name="testConcatenation" type_param="kindr::AngleAxis&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="AngleAxisSingleTest/0" />
+    <testcase name="testFix" type_param="kindr::AngleAxis&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="AngleAxisSingleTest/0" />
+    <testcase name="testVectorRotation" type_param="kindr::AngleAxis&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="AngleAxisSingleTest/0" />
+    <testcase name="testMaps" type_param="kindr::AngleAxis&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="AngleAxisSingleTest/0" />
+    <testcase name="testBoxOperators" type_param="kindr::AngleAxis&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="AngleAxisSingleTest/0" />
+  </testsuite>
+  <testsuite name="AngleAxisSingleTest/1" tests="12" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConstructors" type_param="kindr::AngleAxis&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="AngleAxisSingleTest/1" />
+    <testcase name="testGetters" type_param="kindr::AngleAxis&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="AngleAxisSingleTest/1" />
+    <testcase name="testSetters" type_param="kindr::AngleAxis&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="AngleAxisSingleTest/1" />
+    <testcase name="testComparisonEqual" type_param="kindr::AngleAxis&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="AngleAxisSingleTest/1" />
+    <testcase name="testComparisonNotEqual" type_param="kindr::AngleAxis&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="AngleAxisSingleTest/1" />
+    <testcase name="testGetDisparityAngle" type_param="kindr::AngleAxis&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="AngleAxisSingleTest/1" />
+    <testcase name="testIsNear" type_param="kindr::AngleAxis&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="AngleAxisSingleTest/1" />
+    <testcase name="testConcatenation" type_param="kindr::AngleAxis&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="AngleAxisSingleTest/1" />
+    <testcase name="testFix" type_param="kindr::AngleAxis&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="AngleAxisSingleTest/1" />
+    <testcase name="testVectorRotation" type_param="kindr::AngleAxis&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="AngleAxisSingleTest/1" />
+    <testcase name="testMaps" type_param="kindr::AngleAxis&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="AngleAxisSingleTest/1" />
+    <testcase name="testBoxOperators" type_param="kindr::AngleAxis&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="AngleAxisSingleTest/1" />
+  </testsuite>
+  <testsuite name="RotationQuaternionAngleAxisPairTest/0" tests="7" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConvertToRotationQuaternionUsingConstructor" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::AngleAxis&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/0" />
+    <testcase name="testConvertToAngleAxisUsingConstructor" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::AngleAxis&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/0" />
+    <testcase name="testConvertToRotationQuaternionUsingAssignment" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::AngleAxis&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/0" />
+    <testcase name="testConvertToAngleAxisUsingAssignment" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::AngleAxis&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/0" />
+    <testcase name="testConvertToRotationQuaternionUsingParenthesisOperator" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::AngleAxis&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/0" />
+    <testcase name="testConvertToAngleAxisUsingParenthesisOperator" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::AngleAxis&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/0" />
+    <testcase name="testAngleAxisInversion" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::AngleAxis&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/0" />
+  </testsuite>
+  <testsuite name="RotationQuaternionAngleAxisPairTest/1" tests="7" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConvertToRotationQuaternionUsingConstructor" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::AngleAxis&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/1" />
+    <testcase name="testConvertToAngleAxisUsingConstructor" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::AngleAxis&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/1" />
+    <testcase name="testConvertToRotationQuaternionUsingAssignment" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::AngleAxis&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/1" />
+    <testcase name="testConvertToAngleAxisUsingAssignment" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::AngleAxis&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/1" />
+    <testcase name="testConvertToRotationQuaternionUsingParenthesisOperator" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::AngleAxis&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/1" />
+    <testcase name="testConvertToAngleAxisUsingParenthesisOperator" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::AngleAxis&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/1" />
+    <testcase name="testAngleAxisInversion" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::AngleAxis&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/1" />
+  </testsuite>
+  <testsuite name="RotationQuaternionAngleAxisPairTest/2" tests="7" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConvertToRotationQuaternionUsingConstructor" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::AngleAxis&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/2" />
+    <testcase name="testConvertToAngleAxisUsingConstructor" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::AngleAxis&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/2" />
+    <testcase name="testConvertToRotationQuaternionUsingAssignment" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::AngleAxis&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/2" />
+    <testcase name="testConvertToAngleAxisUsingAssignment" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::AngleAxis&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/2" />
+    <testcase name="testConvertToRotationQuaternionUsingParenthesisOperator" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::AngleAxis&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/2" />
+    <testcase name="testConvertToAngleAxisUsingParenthesisOperator" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::AngleAxis&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/2" />
+    <testcase name="testAngleAxisInversion" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::AngleAxis&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/2" />
+  </testsuite>
+  <testsuite name="RotationQuaternionAngleAxisPairTest/3" tests="7" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConvertToRotationQuaternionUsingConstructor" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::AngleAxis&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/3" />
+    <testcase name="testConvertToAngleAxisUsingConstructor" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::AngleAxis&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/3" />
+    <testcase name="testConvertToRotationQuaternionUsingAssignment" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::AngleAxis&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/3" />
+    <testcase name="testConvertToAngleAxisUsingAssignment" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::AngleAxis&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/3" />
+    <testcase name="testConvertToRotationQuaternionUsingParenthesisOperator" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::AngleAxis&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/3" />
+    <testcase name="testConvertToAngleAxisUsingParenthesisOperator" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::AngleAxis&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/3" />
+    <testcase name="testAngleAxisInversion" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::AngleAxis&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="RotationQuaternionAngleAxisPairTest/3" />
+  </testsuite>
+  <testsuite name="EulerAnglesZyxSingleTest/0" tests="17" failures="0" disabled="0" errors="0" time="0.001" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConstructors" type_param="kindr::EulerAnglesZyx&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/0" />
+    <testcase name="testGetters" type_param="kindr::EulerAnglesZyx&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/0" />
+    <testcase name="testAssignmentOperator" type_param="kindr::EulerAnglesZyx&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/0" />
+    <testcase name="testParenthesisOperator" type_param="kindr::EulerAnglesZyx&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/0" />
+    <testcase name="testSetters" type_param="kindr::EulerAnglesZyx&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/0" />
+    <testcase name="testUniqueness" type_param="kindr::EulerAnglesZyx&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/0" />
+    <testcase name="testComparisonEqual" type_param="kindr::EulerAnglesZyx&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/0" />
+    <testcase name="testComparisonNotEqual" type_param="kindr::EulerAnglesZyx&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/0" />
+    <testcase name="testGetDisparityAngle" type_param="kindr::EulerAnglesZyx&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/0" />
+    <testcase name="testIsNear" type_param="kindr::EulerAnglesZyx&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/0" />
+    <testcase name="testConcatenation" type_param="kindr::EulerAnglesZyx&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/0" />
+    <testcase name="testFix" type_param="kindr::EulerAnglesZyx&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/0" />
+    <testcase name="testVectorRotation" type_param="kindr::EulerAnglesZyx&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/0" />
+    <testcase name="testMaps" type_param="kindr::EulerAnglesZyx&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/0" />
+    <testcase name="testBoxOperators" type_param="kindr::EulerAnglesZyx&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/0" />
+    <testcase name="testRotationOrder" type_param="kindr::EulerAnglesZyx&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/0" />
+    <testcase name="testRotationMatrix" type_param="kindr::EulerAnglesZyx&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/0" />
+  </testsuite>
+  <testsuite name="EulerAnglesZyxSingleTest/1" tests="17" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConstructors" type_param="kindr::EulerAnglesZyx&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/1" />
+    <testcase name="testGetters" type_param="kindr::EulerAnglesZyx&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/1" />
+    <testcase name="testAssignmentOperator" type_param="kindr::EulerAnglesZyx&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/1" />
+    <testcase name="testParenthesisOperator" type_param="kindr::EulerAnglesZyx&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/1" />
+    <testcase name="testSetters" type_param="kindr::EulerAnglesZyx&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/1" />
+    <testcase name="testUniqueness" type_param="kindr::EulerAnglesZyx&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/1" />
+    <testcase name="testComparisonEqual" type_param="kindr::EulerAnglesZyx&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/1" />
+    <testcase name="testComparisonNotEqual" type_param="kindr::EulerAnglesZyx&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/1" />
+    <testcase name="testGetDisparityAngle" type_param="kindr::EulerAnglesZyx&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/1" />
+    <testcase name="testIsNear" type_param="kindr::EulerAnglesZyx&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/1" />
+    <testcase name="testConcatenation" type_param="kindr::EulerAnglesZyx&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/1" />
+    <testcase name="testFix" type_param="kindr::EulerAnglesZyx&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/1" />
+    <testcase name="testVectorRotation" type_param="kindr::EulerAnglesZyx&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/1" />
+    <testcase name="testMaps" type_param="kindr::EulerAnglesZyx&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/1" />
+    <testcase name="testBoxOperators" type_param="kindr::EulerAnglesZyx&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/1" />
+    <testcase name="testRotationOrder" type_param="kindr::EulerAnglesZyx&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/1" />
+    <testcase name="testRotationMatrix" type_param="kindr::EulerAnglesZyx&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxSingleTest/1" />
+  </testsuite>
+  <testsuite name="EulerAnglesZyxRotationQuaternionPairTest/0" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConversionRotationQuaternionEulerAnglesZyx" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::EulerAnglesZyx&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxRotationQuaternionPairTest/0" />
+    <testcase name="testInversion" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::EulerAnglesZyx&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxRotationQuaternionPairTest/0" />
+  </testsuite>
+  <testsuite name="EulerAnglesZyxRotationQuaternionPairTest/1" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConversionRotationQuaternionEulerAnglesZyx" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::EulerAnglesZyx&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxRotationQuaternionPairTest/1" />
+    <testcase name="testInversion" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::EulerAnglesZyx&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxRotationQuaternionPairTest/1" />
+  </testsuite>
+  <testsuite name="EulerAnglesZyxRotationQuaternionPairTest/2" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConversionRotationQuaternionEulerAnglesZyx" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::EulerAnglesZyx&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxRotationQuaternionPairTest/2" />
+    <testcase name="testInversion" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::EulerAnglesZyx&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxRotationQuaternionPairTest/2" />
+  </testsuite>
+  <testsuite name="EulerAnglesZyxRotationQuaternionPairTest/3" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConversionRotationQuaternionEulerAnglesZyx" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::EulerAnglesZyx&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxRotationQuaternionPairTest/3" />
+    <testcase name="testInversion" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::EulerAnglesZyx&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesZyxRotationQuaternionPairTest/3" />
+  </testsuite>
+  <testsuite name="EulerAnglesXyzSingleTest/0" tests="17" failures="0" disabled="0" errors="0" time="0.001" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConstructors" type_param="kindr::EulerAnglesXyz&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/0" />
+    <testcase name="testGetters" type_param="kindr::EulerAnglesXyz&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/0" />
+    <testcase name="testAssignmentOperator" type_param="kindr::EulerAnglesXyz&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/0" />
+    <testcase name="testParenthesisOperator" type_param="kindr::EulerAnglesXyz&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/0" />
+    <testcase name="testSetters" type_param="kindr::EulerAnglesXyz&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/0" />
+    <testcase name="testUniqueness" type_param="kindr::EulerAnglesXyz&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/0" />
+    <testcase name="testComparisonEqual" type_param="kindr::EulerAnglesXyz&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/0" />
+    <testcase name="testComparisonNotEqual" type_param="kindr::EulerAnglesXyz&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/0" />
+    <testcase name="testGetDisparityAngle" type_param="kindr::EulerAnglesXyz&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/0" />
+    <testcase name="testIsNear" type_param="kindr::EulerAnglesXyz&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/0" />
+    <testcase name="testConcatenation" type_param="kindr::EulerAnglesXyz&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/0" />
+    <testcase name="testFix" type_param="kindr::EulerAnglesXyz&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/0" />
+    <testcase name="testVectorRotation" type_param="kindr::EulerAnglesXyz&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/0" />
+    <testcase name="testMaps" type_param="kindr::EulerAnglesXyz&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/0" />
+    <testcase name="testBoxOperators" type_param="kindr::EulerAnglesXyz&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/0" />
+    <testcase name="testRotationOrder" type_param="kindr::EulerAnglesXyz&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/0" />
+    <testcase name="testRotationMatrix" type_param="kindr::EulerAnglesXyz&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/0" />
+  </testsuite>
+  <testsuite name="EulerAnglesXyzSingleTest/1" tests="17" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConstructors" type_param="kindr::EulerAnglesXyz&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/1" />
+    <testcase name="testGetters" type_param="kindr::EulerAnglesXyz&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/1" />
+    <testcase name="testAssignmentOperator" type_param="kindr::EulerAnglesXyz&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/1" />
+    <testcase name="testParenthesisOperator" type_param="kindr::EulerAnglesXyz&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/1" />
+    <testcase name="testSetters" type_param="kindr::EulerAnglesXyz&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/1" />
+    <testcase name="testUniqueness" type_param="kindr::EulerAnglesXyz&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/1" />
+    <testcase name="testComparisonEqual" type_param="kindr::EulerAnglesXyz&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/1" />
+    <testcase name="testComparisonNotEqual" type_param="kindr::EulerAnglesXyz&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/1" />
+    <testcase name="testGetDisparityAngle" type_param="kindr::EulerAnglesXyz&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/1" />
+    <testcase name="testIsNear" type_param="kindr::EulerAnglesXyz&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/1" />
+    <testcase name="testConcatenation" type_param="kindr::EulerAnglesXyz&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/1" />
+    <testcase name="testFix" type_param="kindr::EulerAnglesXyz&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/1" />
+    <testcase name="testVectorRotation" type_param="kindr::EulerAnglesXyz&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/1" />
+    <testcase name="testMaps" type_param="kindr::EulerAnglesXyz&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/1" />
+    <testcase name="testBoxOperators" type_param="kindr::EulerAnglesXyz&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/1" />
+    <testcase name="testRotationOrder" type_param="kindr::EulerAnglesXyz&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/1" />
+    <testcase name="testRotationMatrix" type_param="kindr::EulerAnglesXyz&lt;float&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzSingleTest/1" />
+  </testsuite>
+  <testsuite name="EulerAnglesXyzRotationQuaternionPairTest/0" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConversionRotationQuaternionEulerAnglesXyz" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::EulerAnglesXyz&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzRotationQuaternionPairTest/0" />
+    <testcase name="testInversion" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::EulerAnglesXyz&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzRotationQuaternionPairTest/0" />
+  </testsuite>
+  <testsuite name="EulerAnglesXyzRotationQuaternionPairTest/1" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConversionRotationQuaternionEulerAnglesXyz" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::EulerAnglesXyz&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzRotationQuaternionPairTest/1" />
+    <testcase name="testInversion" type_param="std::pair&lt;kindr::RotationQuaternion&lt;float&gt;, kindr::EulerAnglesXyz&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzRotationQuaternionPairTest/1" />
+  </testsuite>
+  <testsuite name="EulerAnglesXyzRotationQuaternionPairTest/2" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConversionRotationQuaternionEulerAnglesXyz" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::EulerAnglesXyz&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzRotationQuaternionPairTest/2" />
+    <testcase name="testInversion" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::EulerAnglesXyz&lt;float&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzRotationQuaternionPairTest/2" />
+  </testsuite>
+  <testsuite name="EulerAnglesXyzRotationQuaternionPairTest/3" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testConversionRotationQuaternionEulerAnglesXyz" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::EulerAnglesXyz&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzRotationQuaternionPairTest/3" />
+    <testcase name="testInversion" type_param="std::pair&lt;kindr::RotationQuaternion&lt;double&gt;, kindr::EulerAnglesXyz&lt;double&gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="EulerAnglesXyzRotationQuaternionPairTest/3" />
+  </testsuite>
+  <testsuite name="ConversionTest/0" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/0" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/0" />
+  </testsuite>
+  <testsuite name="ConversionTest/1" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/1" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/1" />
+  </testsuite>
+  <testsuite name="ConversionTest/2" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/2" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/2" />
+  </testsuite>
+  <testsuite name="ConversionTest/3" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/3" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/3" />
+  </testsuite>
+  <testsuite name="ConversionTest/4" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/4" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/4" />
+  </testsuite>
+  <testsuite name="ConversionTest/5" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/5" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/5" />
+  </testsuite>
+  <testsuite name="ConversionTest/6" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/6" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/6" />
+  </testsuite>
+  <testsuite name="ConversionTest/7" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/7" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/7" />
+  </testsuite>
+  <testsuite name="ConversionTest/8" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/8" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/8" />
+  </testsuite>
+  <testsuite name="ConversionTest/9" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/9" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/9" />
+  </testsuite>
+  <testsuite name="ConversionTest/10" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/10" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/10" />
+  </testsuite>
+  <testsuite name="ConversionTest/11" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/11" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/11" />
+  </testsuite>
+  <testsuite name="ConversionTest/12" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/12" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/12" />
+  </testsuite>
+  <testsuite name="ConversionTest/13" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/13" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/13" />
+  </testsuite>
+  <testsuite name="ConversionTest/14" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/14" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/14" />
+  </testsuite>
+  <testsuite name="ConversionTest/15" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/15" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/15" />
+  </testsuite>
+  <testsuite name="ConversionTest/16" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/16" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/16" />
+  </testsuite>
+  <testsuite name="ConversionTest/17" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/17" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/17" />
+  </testsuite>
+  <testsuite name="ConversionTest/18" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/18" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/18" />
+  </testsuite>
+  <testsuite name="ConversionTest/19" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/19" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/19" />
+  </testsuite>
+  <testsuite name="ConversionTest/20" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/20" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/20" />
+  </testsuite>
+  <testsuite name="ConversionTest/21" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/21" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/21" />
+  </testsuite>
+  <testsuite name="ConversionTest/22" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/22" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/22" />
+  </testsuite>
+  <testsuite name="ConversionTest/23" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/23" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConversionTest/23" />
+  </testsuite>
+  <testsuite name="Conversion2Test/0" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/0" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/0" />
+  </testsuite>
+  <testsuite name="Conversion2Test/1" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/1" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/1" />
+  </testsuite>
+  <testsuite name="Conversion2Test/2" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/2" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/2" />
+  </testsuite>
+  <testsuite name="Conversion2Test/3" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/3" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/3" />
+  </testsuite>
+  <testsuite name="Conversion2Test/4" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/4" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/4" />
+  </testsuite>
+  <testsuite name="Conversion2Test/5" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/5" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/5" />
+  </testsuite>
+  <testsuite name="Conversion2Test/6" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/6" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/6" />
+  </testsuite>
+  <testsuite name="Conversion2Test/7" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/7" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/7" />
+  </testsuite>
+  <testsuite name="Conversion2Test/8" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/8" />
+    <testcase name="testBToA" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/8" />
+  </testsuite>
+  <testsuite name="Conversion2Test/9" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/9" />
+    <testcase name="testBToA" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/9" />
+  </testsuite>
+  <testsuite name="Conversion2Test/10" tests="2" failures="0" disabled="0" errors="0" time="0.007" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/10" />
+    <testcase name="testBToA" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/10" />
+  </testsuite>
+  <testsuite name="Conversion2Test/11" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/11" />
+    <testcase name="testBToA" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/11" />
+  </testsuite>
+  <testsuite name="Conversion2Test/12" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/12" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/12" />
+  </testsuite>
+  <testsuite name="Conversion2Test/13" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/13" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/13" />
+  </testsuite>
+  <testsuite name="Conversion2Test/14" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/14" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/14" />
+  </testsuite>
+  <testsuite name="Conversion2Test/15" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/15" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion2Test/15" />
+  </testsuite>
+  <testsuite name="Conversion3Test/0" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/0" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/0" />
+  </testsuite>
+  <testsuite name="Conversion3Test/1" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/1" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/1" />
+  </testsuite>
+  <testsuite name="Conversion3Test/2" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/2" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/2" />
+  </testsuite>
+  <testsuite name="Conversion3Test/3" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/3" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/3" />
+  </testsuite>
+  <testsuite name="Conversion3Test/4" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/4" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/4" />
+  </testsuite>
+  <testsuite name="Conversion3Test/5" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/5" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/5" />
+  </testsuite>
+  <testsuite name="Conversion3Test/6" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/6" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/6" />
+  </testsuite>
+  <testsuite name="Conversion3Test/7" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/7" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/7" />
+  </testsuite>
+  <testsuite name="Conversion3Test/8" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/8" />
+    <testcase name="testBToA" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/8" />
+  </testsuite>
+  <testsuite name="Conversion3Test/9" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/9" />
+    <testcase name="testBToA" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/9" />
+  </testsuite>
+  <testsuite name="Conversion3Test/10" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/10" />
+    <testcase name="testBToA" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/10" />
+  </testsuite>
+  <testsuite name="Conversion3Test/11" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/11" />
+    <testcase name="testBToA" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/11" />
+  </testsuite>
+  <testsuite name="Conversion3Test/12" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/12" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/12" />
+  </testsuite>
+  <testsuite name="Conversion3Test/13" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/13" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/13" />
+  </testsuite>
+  <testsuite name="Conversion3Test/14" tests="2" failures="0" disabled="0" errors="0" time="0.001" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/14" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/14" />
+  </testsuite>
+  <testsuite name="Conversion3Test/15" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/15" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/15" />
+  </testsuite>
+  <testsuite name="Conversion3Test/16" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/16" />
+    <testcase name="testBToA" type_param="std::pair&lt;EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/16" />
+  </testsuite>
+  <testsuite name="Conversion3Test/17" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/17" />
+    <testcase name="testBToA" type_param="std::pair&lt;EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/17" />
+  </testsuite>
+  <testsuite name="Conversion3Test/18" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/18" />
+    <testcase name="testBToA" type_param="std::pair&lt;EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/18" />
+  </testsuite>
+  <testsuite name="Conversion3Test/19" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/19" />
+    <testcase name="testBToA" type_param="std::pair&lt;EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion3Test/19" />
+  </testsuite>
+  <testsuite name="Conversion4Test/0" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/0" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/0" />
+  </testsuite>
+  <testsuite name="Conversion4Test/1" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/1" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/1" />
+  </testsuite>
+  <testsuite name="Conversion4Test/2" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/2" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/2" />
+  </testsuite>
+  <testsuite name="Conversion4Test/3" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/3" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/3" />
+  </testsuite>
+  <testsuite name="Conversion4Test/4" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/4" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/4" />
+  </testsuite>
+  <testsuite name="Conversion4Test/5" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/5" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/5" />
+  </testsuite>
+  <testsuite name="Conversion4Test/6" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/6" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/6" />
+  </testsuite>
+  <testsuite name="Conversion4Test/7" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/7" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/7" />
+  </testsuite>
+  <testsuite name="Conversion4Test/8" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/8" />
+    <testcase name="testBToA" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/8" />
+  </testsuite>
+  <testsuite name="Conversion4Test/9" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/9" />
+    <testcase name="testBToA" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/9" />
+  </testsuite>
+  <testsuite name="Conversion4Test/10" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/10" />
+    <testcase name="testBToA" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/10" />
+  </testsuite>
+  <testsuite name="Conversion4Test/11" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/11" />
+    <testcase name="testBToA" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/11" />
+  </testsuite>
+  <testsuite name="Conversion4Test/12" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/12" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/12" />
+  </testsuite>
+  <testsuite name="Conversion4Test/13" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/13" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/13" />
+  </testsuite>
+  <testsuite name="Conversion4Test/14" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/14" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/14" />
+  </testsuite>
+  <testsuite name="Conversion4Test/15" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/15" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/15" />
+  </testsuite>
+  <testsuite name="Conversion4Test/16" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/16" />
+    <testcase name="testBToA" type_param="std::pair&lt;EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/16" />
+  </testsuite>
+  <testsuite name="Conversion4Test/17" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/17" />
+    <testcase name="testBToA" type_param="std::pair&lt;EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/17" />
+  </testsuite>
+  <testsuite name="Conversion4Test/18" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/18" />
+    <testcase name="testBToA" type_param="std::pair&lt;EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/18" />
+  </testsuite>
+  <testsuite name="Conversion4Test/19" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/19" />
+    <testcase name="testBToA" type_param="std::pair&lt;EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt;, EulerAnglesXyzTestType&lt;kindr::EulerAnglesXyz&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="Conversion4Test/19" />
+  </testsuite>
+  <testsuite name="ConcatenationTest/0" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/0" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/0" />
+  </testsuite>
+  <testsuite name="ConcatenationTest/1" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/1" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/1" />
+  </testsuite>
+  <testsuite name="ConcatenationTest/2" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/2" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/2" />
+  </testsuite>
+  <testsuite name="ConcatenationTest/3" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/3" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/3" />
+  </testsuite>
+  <testsuite name="ConcatenationTest/4" tests="2" failures="0" disabled="0" errors="0" time="0.001" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/4" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/4" />
+  </testsuite>
+  <testsuite name="ConcatenationTest/5" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/5" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/5" />
+  </testsuite>
+  <testsuite name="ConcatenationTest/6" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/6" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/6" />
+  </testsuite>
+  <testsuite name="ConcatenationTest/7" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/7" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/7" />
+  </testsuite>
+  <testsuite name="ConcatenationTest/8" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/8" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/8" />
+  </testsuite>
+  <testsuite name="ConcatenationTest/9" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/9" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/9" />
+  </testsuite>
+  <testsuite name="ConcatenationTest/10" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/10" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/10" />
+  </testsuite>
+  <testsuite name="ConcatenationTest/11" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/11" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt;, AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/11" />
+  </testsuite>
+  <testsuite name="ConcatenationTest/12" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/12" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/12" />
+  </testsuite>
+  <testsuite name="ConcatenationTest/13" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/13" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationQuaternionTestType&lt;kindr::RotationQuaternion&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/13" />
+  </testsuite>
+  <testsuite name="ConcatenationTest/14" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/14" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/14" />
+  </testsuite>
+  <testsuite name="ConcatenationTest/15" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/15" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationVectorTestType&lt;kindr::RotationVector&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/15" />
+  </testsuite>
+  <testsuite name="ConcatenationTest/16" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/16" />
+    <testcase name="testBToA" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/16" />
+  </testsuite>
+  <testsuite name="ConcatenationTest/17" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/17" />
+    <testcase name="testBToA" type_param="std::pair&lt;AngleAxisTestType&lt;kindr::AngleAxis&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/17" />
+  </testsuite>
+  <testsuite name="ConcatenationTest/18" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/18" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;float&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;float&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/18" />
+  </testsuite>
+  <testsuite name="ConcatenationTest/19" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="testAToB" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/19" />
+    <testcase name="testBToA" type_param="std::pair&lt;RotationMatrixTestType&lt;kindr::RotationMatrix&lt;double&gt; &gt;, EulerAnglesZyxTestType&lt;kindr::EulerAnglesZyx&lt;double&gt; &gt; &gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="ConcatenationTest/19" />
+  </testsuite>
+  <testsuite name="KindrConventionTest/0" tests="4" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="GeometricalInterpretation" type_param="kindr::RotationQuaternion&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="KindrConventionTest/0" />
+    <testcase name="Concatenation" type_param="kindr::RotationQuaternion&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="KindrConventionTest/0" />
+    <testcase name="BoxPlus" type_param="kindr::RotationQuaternion&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="KindrConventionTest/0" />
+    <testcase name="RotationMatrix" type_param="kindr::RotationQuaternion&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="KindrConventionTest/0" />
+  </testsuite>
+  <testsuite name="KindrConventionTest/1" tests="4" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="GeometricalInterpretation" type_param="kindr::EulerAnglesZyx&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="KindrConventionTest/1" />
+    <testcase name="Concatenation" type_param="kindr::EulerAnglesZyx&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="KindrConventionTest/1" />
+    <testcase name="BoxPlus" type_param="kindr::EulerAnglesZyx&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="KindrConventionTest/1" />
+    <testcase name="RotationMatrix" type_param="kindr::EulerAnglesZyx&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="KindrConventionTest/1" />
+  </testsuite>
+  <testsuite name="KindrConventionTest/2" tests="4" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="GeometricalInterpretation" type_param="kindr::EulerAnglesXyz&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="KindrConventionTest/2" />
+    <testcase name="Concatenation" type_param="kindr::EulerAnglesXyz&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="KindrConventionTest/2" />
+    <testcase name="BoxPlus" type_param="kindr::EulerAnglesXyz&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="KindrConventionTest/2" />
+    <testcase name="RotationMatrix" type_param="kindr::EulerAnglesXyz&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="KindrConventionTest/2" />
+  </testsuite>
+  <testsuite name="KindrConventionTest/3" tests="4" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="GeometricalInterpretation" type_param="kindr::RotationMatrix&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="KindrConventionTest/3" />
+    <testcase name="Concatenation" type_param="kindr::RotationMatrix&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="KindrConventionTest/3" />
+    <testcase name="BoxPlus" type_param="kindr::RotationMatrix&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="KindrConventionTest/3" />
+    <testcase name="RotationMatrix" type_param="kindr::RotationMatrix&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="KindrConventionTest/3" />
+  </testsuite>
+  <testsuite name="KindrConventionTest/4" tests="4" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:26">
+    <testcase name="GeometricalInterpretation" type_param="kindr::RotationVector&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="KindrConventionTest/4" />
+    <testcase name="Concatenation" type_param="kindr::RotationVector&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="KindrConventionTest/4" />
+    <testcase name="BoxPlus" type_param="kindr::RotationVector&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="KindrConventionTest/4" />
+    <testcase name="RotationMatrix" type_param="kindr::RotationVector&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="KindrConventionTest/4" />
+  </testsuite>
+  <testsuite name="KindrConventionTest/5" tests="4" failures="0" disabled="0" errors="0" time="0.001" timestamp="2024-10-17T20:02:26">
+    <testcase name="GeometricalInterpretation" type_param="kindr::AngleAxis&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="KindrConventionTest/5" />
+    <testcase name="Concatenation" type_param="kindr::AngleAxis&lt;double&gt;" status="run" result="completed" time="0.001" timestamp="2024-10-17T20:02:26" classname="KindrConventionTest/5" />
+    <testcase name="BoxPlus" type_param="kindr::AngleAxis&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="KindrConventionTest/5" />
+    <testcase name="RotationMatrix" type_param="kindr::AngleAxis&lt;double&gt;" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:26" classname="KindrConventionTest/5" />
+  </testsuite>
+</testsuites>

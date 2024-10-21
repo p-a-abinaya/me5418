@@ -1,0 +1,8 @@
+prefix=/home/abi/turtlebot_rl_ws/install
+
+Name: point_cloud_io
+Description: Description of point_cloud_io
+Version: 0.3.18
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: pcl_ros roscpp sensor_msgs

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="18" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:40" name="AllTests">
+  <testsuite name="RosGeometryMsgVectorEigen" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:40">
+    <testcase name="convertFromRosGeometryMsg" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:40" classname="RosGeometryMsgVectorEigen" />
+    <testcase name="convertToRosGeometryMsg" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:40" classname="RosGeometryMsgVectorEigen" />
+  </testsuite>
+  <testsuite name="RosGeometryMsgPositionEigen" tests="4" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:40">
+    <testcase name="convertFromRosGeometryPoint32Msg" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:40" classname="RosGeometryMsgPositionEigen" />
+    <testcase name="convertToRosGeometryPoint32Msg" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:40" classname="RosGeometryMsgPositionEigen" />
+    <testcase name="convertFromRosGeometryPointMsg" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:40" classname="RosGeometryMsgPositionEigen" />
+    <testcase name="convertToRosGeometryPointMsg" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:40" classname="RosGeometryMsgPositionEigen" />
+  </testsuite>
+  <testsuite name="RosGeometryMsgRotationQuaternionEigen" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:40">
+    <testcase name="convertFromRosGeometryMsg" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:40" classname="RosGeometryMsgRotationQuaternionEigen" />
+    <testcase name="convertToRosGeometryMsg" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:40" classname="RosGeometryMsgRotationQuaternionEigen" />
+  </testsuite>
+  <testsuite name="RosGeometryMsgPoseEigen" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:40">
+    <testcase name="convertFromRosGeometryMsg" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:40" classname="RosGeometryMsgPoseEigen" />
+    <testcase name="convertToRosGeometryMsg" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:40" classname="RosGeometryMsgPoseEigen" />
+  </testsuite>
+  <testsuite name="RosGeometryMsgTransformationEigen" tests="2" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:40">
+    <testcase name="convertFromRosGeometryMsg" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:40" classname="RosGeometryMsgTransformationEigen" />
+    <testcase name="convertToRosGeometryMsg" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:40" classname="RosGeometryMsgTransformationEigen" />
+  </testsuite>
+  <testsuite name="RosTfPoseEigen" tests="3" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:40">
+    <testcase name="convertFromRosTf" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:40" classname="RosTfPoseEigen" />
+    <testcase name="convertToRosTf" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:40" classname="RosTfPoseEigen" />
+    <testcase name="convertTwoWays" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:40" classname="RosTfPoseEigen" />
+  </testsuite>
+  <testsuite name="TfConventionTest" tests="3" failures="0" disabled="0" errors="0" time="0" timestamp="2024-10-17T20:02:40">
+    <testcase name="Concatenation" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:40" classname="TfConventionTest" />
+    <testcase name="Rotation" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:40" classname="TfConventionTest" />
+    <testcase name="GeometricalInterpretation" status="run" result="completed" time="0" timestamp="2024-10-17T20:02:40" classname="TfConventionTest" />
+  </testsuite>
+</testsuites>

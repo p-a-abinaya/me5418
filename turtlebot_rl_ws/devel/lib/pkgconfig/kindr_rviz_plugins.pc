@@ -1,0 +1,1 @@
+/home/abi/turtlebot_rl_ws/devel/.private/kindr_rviz_plugins/lib/pkgconfig/kindr_rviz_plugins.pc

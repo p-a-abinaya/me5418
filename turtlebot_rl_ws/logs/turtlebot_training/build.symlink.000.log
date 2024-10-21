@@ -1,0 +1,3 @@
+Symlinking /home/abi/turtlebot_rl_ws/devel/lib/pkgconfig/turtlebot_training.pc
+Symlinking /home/abi/turtlebot_rl_ws/devel/share/turtlebot_training/cmake/turtlebot_trainingConfig.cmake
+Symlinking /home/abi/turtlebot_rl_ws/devel/share/turtlebot_training/cmake/turtlebot_trainingConfig-version.cmake

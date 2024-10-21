@@ -1,0 +1,8 @@
+prefix=/home/abi/turtlebot_rl_ws/devel/.private/openai_ros
+
+Name: openai_ros
+Description: Description of openai_ros
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
