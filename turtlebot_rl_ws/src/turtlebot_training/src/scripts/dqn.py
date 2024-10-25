@@ -1,7 +1,7 @@
 import rospy
 import numpy as np
 from turtlebot3_world import TurtleBot3WorldEnv
-from dqn_model import DQNNetwork  # network
+from dqn_model import DQNNetwork  #network
 import torch
 import torch.optim as optim
 import random
@@ -10,7 +10,6 @@ from collections import deque
 class TurtleBot3DQNAgent:
     def __init__(self):
         rospy.init_node('turtlebot3_dqn_node', anonymous=True)
-
         self.env = TurtleBot3WorldEnv()
 
         self.state_size = self.env.observation_space.shape[0]
@@ -23,12 +22,13 @@ class TurtleBot3DQNAgent:
         self.batch_size = 64
         self.memory = deque(maxlen=2000)
 
+    
         self.model = DQNNetwork(self.state_size, self.action_size)
         self.target_model = DQNNetwork(self.state_size, self.action_size)
         self.optimizer = optim.Adam(self.model.parameters(), lr=self.lr)
 
     def select_action(self, state):
-        #"""Epsilon-greedy action selection.""" 
+        #"""Epsilon-greedy action selection."""
         if np.random.rand() < self.epsilon:
             return np.random.choice(self.action_size)
         else:
@@ -53,7 +53,7 @@ class TurtleBot3DQNAgent:
             loss.backward()
             self.optimizer.step()
 
-    def train(self, episodes=1):
+    def train(self, episodes=1000):    #Kept the eps to 1000, try running it an then change it to maybe 10 or 20
         #"""Train the DQN agent on the environment."""
         for e in range(episodes):
             state = self.env.reset()
@@ -62,30 +62,32 @@ class TurtleBot3DQNAgent:
             total_reward = 0
 
             while not done:
-                # not sure about the action, for testing you give something
+                # chooses action
+                action = self.select_action(state)
                 next_state, reward, done, _ = self.env.step(action)
                 next_state = np.reshape(next_state, [1, self.state_size])
-        
                 self.memory.append((state, action, reward, next_state, done))
+
                 self.replay()
 
                 total_reward += reward
 
-            
+                # If done, print the result
                 if done:
                     print(f"Episode: {e}/{episodes}, Score: {total_reward}, Epsilon: {self.epsilon}")
                     break
 
-            
+            # Decay
             if self.epsilon > self.epsilon_min:
                 self.epsilon *= self.epsilon_decay
-           
+
+            # Update
             if e % 10 == 0:
                 self.target_model.load_state_dict(self.model.state_dict())
 
-if __name__ == '__main__':
+if __name__ == '__main__':   #the executable
     try:
         agent = TurtleBot3DQNAgent()
-        agent.train(episodes=1) #randomly gave 1000 eps
+        agent.train(episodes=1000)  #same here
     except rospy.ROSInterruptException:
         pass
