@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import rospy #not sure about this lol 
 import torch
 import torch.nn as net   #run on cpu if there is error
@@ -18,3 +19,5 @@ class DQNNetwork(net.Module):
         x = torch.relu(self.fc1(state))
         x = torch.relu(self.fc2(x))
         return self.fc3(x)
+    
+

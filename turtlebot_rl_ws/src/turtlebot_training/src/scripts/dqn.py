@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import rospy
 import numpy as np
 from turtlebot3_world import TurtleBot3WorldEnv
@@ -6,7 +7,7 @@ import torch
 import torch.optim as optim
 import random
 from collections import deque
-
+ 
 class TurtleBot3DQNAgent:
     def __init__(self):
         rospy.init_node('turtlebot3_dqn_node', anonymous=True)
@@ -53,11 +54,12 @@ class TurtleBot3DQNAgent:
             loss.backward()
             self.optimizer.step()
 
-    def train(self, episodes=1000):    #Kept the eps to 1000, try running it an then change it to maybe 10 or 20
+    def train(self, episodes=1):    #Kept the eps to 1000, try running it an then change it to maybe 10 or 20
         #"""Train the DQN agent on the environment."""
         for e in range(episodes):
-            state = self.env.reset()
-            state = np.reshape(state, [1, self.state_size])
+            state, _ = self.env.reset()
+            print("shape: " + str(len(state)))
+            #state = np.reshape(state, [1, self.state_size])
             done = False
             total_reward = 0
 
@@ -88,6 +90,6 @@ class TurtleBot3DQNAgent:
 if __name__ == '__main__':   #the executable
     try:
         agent = TurtleBot3DQNAgent()
-        agent.train(episodes=1000)  #same here
+        agent.train(episodes=1)  #same here
     except rospy.ROSInterruptException:
         pass
